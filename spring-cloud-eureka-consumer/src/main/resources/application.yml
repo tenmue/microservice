@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-consumer
+
+server:
+  port: 2101
+
+#开启hystrix熔断降级
+feign: 
+  hystrix: 
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1002/eureka/

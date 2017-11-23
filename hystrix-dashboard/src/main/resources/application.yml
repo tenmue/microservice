@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: hystrix-dashboard
+
+server:
+  port: 1301
+
+management:
+  port: 8990
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1002/eureka/
+
+turbine:
+  #要监控的服务名称，注册中心的服务名称是大写
+  app-config: EUREKA-CONSUMER
+  cluster-name-expression: "'default'"
+  combine-host-port: true
