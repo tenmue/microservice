@@ -8,7 +8,8 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:1002/eureka/
+      #defaultZone: http://localhost:1002/eureka/
+      defaultZone: http://eureka.didispace.com/eureka/
   #实例名称显示ip地址
   instance:
     #prefer-ip-address: true

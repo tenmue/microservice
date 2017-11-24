@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: api-zuul
+
+server:
+  port: 1101
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.didispace.com/eureka/
