@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: config-client
+
+#当配置中心有配置端口的话，那么本地的配置则会被覆盖
+server:
+  port: 3001

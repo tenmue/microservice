@@ -1,0 +1,20 @@
+spring:
+  application:
+    #文件名称
+    name: config-client-dev
+  cloud:
+    config:
+      #配置中心地址
+      #uri: http://localhost:1201
+      #profile: dev
+      #label: master
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+      profile: dev
+      
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:1002/eureka/
+      defaultZone: http://eureka.didispace.com/eureka/

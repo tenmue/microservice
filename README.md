@@ -9,3 +9,7 @@
 ## * api-zuul							【路由服务网关】
 
 ## * hystrix-dashboard					【服务监控】
+
+## * spring-cloud-config-server		【配置中心服务】
+
+## * spring-cloud-config-client		【配置中心客户端】
